@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+       
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/search_fragment_layout_search_song_result"
+   style="@style/SearchresultLayout"
+   >
+   
+	<TextView
+	    android:id="@+id/song_list_header"
+	    style="@style/SearchresultListheader"
+	    android:text="@string/search_song_result_layout_header"
+ />
+   
+   <ListView android:id="@+id/lv_songsearchresult"
+		   style="@style/SearchresultListview"   
+		    />
+
+    
+</LinearLayout>

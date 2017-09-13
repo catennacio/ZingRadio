@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_delete_confirm_yes"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="Yes"/>
+    
+    <item
+        android:id="@+id/menu_delete_confirm_no"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="No"
+        />
+
+</menu>

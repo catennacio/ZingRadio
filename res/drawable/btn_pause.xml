@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    
+     <item>
+         <shape
+             android:shape="oval"
+             >
+            <solid 
+                android:color="@color/bt_pause"
+                />
+             <size 
+                 android:width="48dp"
+                 android:height="48dp"
+                 />
+         </shape>
+     </item>
+	<item>
+    <bitmap
+        android:src="@drawable/img_btn_pause"
+        android:gravity="center"
+     />
+     </item>
+</layer-list>

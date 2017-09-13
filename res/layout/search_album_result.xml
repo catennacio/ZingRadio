@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_fragment_layout_search_album_result"
+    style="@style/SearchresultLayout"
+    >
+    
+	<!-- Header for Album result -->
+	<TextView
+        android:id="@+id/album_list_header"
+        style="@style/SearchresultListheader"
+        android:text="@string/search_album_result_layout_header"
+        />
+
+    <ListView 
+			    android:id="@+id/lv_albumsearchresult"
+			    style="@style/SearchresultListview"
+			    />
+</LinearLayout>

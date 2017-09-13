@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lo_master"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/app_background"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/lo_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" >
+
+        <TextView
+            android:id="@+id/tv_song_performer"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/lo_songartist"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:gravity="bottom|center_horizontal"
+            android:marqueeRepeatLimit="3"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/txt_songartist"
+            android:textSize="@dimen/txt_songartist" />
+
+        <TextView
+            android:id="@+id/tv_song_title"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/lo_songname"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:gravity="top|center_horizontal"
+            android:marqueeRepeatLimit="5"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/txt_songname"
+            android:textSize="@dimen/txt_songname"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/forlyric_wrapper"
+        android:layout_width="@dimen/lo_main_lyric"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/forlyric_song_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <!--
+                      <LinearLayout
+                    android:id="@+id/lo_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/bg_main"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+            -->
+
+
+            <!--
+                          <LinearLayout
+                        
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="top|center_horizontal"
+                        android:orientation="vertical" >
+            -->
+
+            <LinearLayout
+                android:id="@+id/lo_song_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="top|center_horizontal" >
+
+                <FrameLayout
+                    android:id="@+id/lo_cover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/imageViewPerformerCover"
+                        android:layout_width="@dimen/albumcover"
+                        android:layout_height="@dimen/albumcover"
+                        android:padding="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_song_loading_thumbnail" />
+
+                    <LinearLayout
+                        android:id="@+id/lo_songlist"
+                        android:layout_width="@dimen/lo_albumsonglist"
+                        android:layout_height="@dimen/lo_albumsonglist"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_playlist"
+                        android:orientation="vertical"
+                        android:padding="4dp"
+                        android:visibility="gone" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="@color/bg_playlist_top"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/tv_songlist_info"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:paddingLeft="8dp"
+                                android:text="Loading..."
+                                android:textColor="@color/txt_playlist_playing"
+                                android:textSize="14sp" />
+
+                            <ImageButton
+                                android:id="@+id/btn_close_songlist"
+                                style="@style/ButtonDefault"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_weight="0"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/img_playlist_close" />
+                        </LinearLayout>
+
+                        <ListView
+                            android:id="@+id/lv_songlist"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="0dp"
+                            android:cacheColorHint="#0000"
+                            android:divider="@drawable/divider_playlist"
+                            android:dividerHeight="1px"
+                            android:listSelector="@drawable/item_background_holo_light" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/albumcover"
+                        android:layout_height="@dimen/albumcover"
+                        android:layout_margin="00dp"
+                        android:background="@drawable/cover_mask" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/lo_song_btns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_songbuttons"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/btn_toggle_song_fav"
+                        style="@style/ButtonSong"
+                        android:src="@drawable/img_btn_heart_off" />
+
+                    <ImageButton
+                        android:id="@+id/btn_toggle_lyric"
+                        style="@style/ButtonSong"
+                        android:src="@drawable/img_btn_lyric" />
+
+                    <ImageButton
+                        android:id="@+id/btn_repeat_song"
+                        style="@style/ButtonSong"
+                        android:src="@drawable/img_btn_repeat_song_off" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_SongInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/controller_margin"
+                android:layout_marginRight="@dimen/controller_margin"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_songprogress"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="8dp" >
+
+                <!-- Timer Display -->
+
+                <TextView
+                    android:id="@+id/songCurrentDurationLabel"
+                    android:layout_width="42dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left"
+                    android:paddingLeft="4dp"
+                    android:singleLine="true"
+                    android:text="00:00"
+                    android:textColor="@color/txt_songtimeprogress"
+                    android:textSize="14sp" />
+
+                <SeekBar
+                    android:id="@+id/songProgressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:maxHeight="@dimen/song_progress_bar"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp"
+                    android:progressDrawable="@drawable/seekbar_progress_normal"
+                    android:secondaryProgress="0"
+                    android:thumb="@drawable/seek_thumb"
+                    android:thumbOffset="0dp" />
+                <!-- Total Duration Label -->
+
+                <TextView
+                    android:id="@+id/songTotalDurationLabel"
+                    android:layout_width="42dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0"
+                    android:gravity="right"
+                    android:paddingRight="4dp"
+                    android:singleLine="true"
+                    android:text="00:00"
+                    android:textColor="@color/txt_songtimetotal"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lo_controller"
+                android:layout_marginLeft="@dimen/controller_margin"
+                android:layout_marginRight="@dimen/controller_margin"
+                android:background="@drawable/bg_songcontrol"
+                android:padding="4dp"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/lo_controller"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_control" 
+                    android:layout_gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/sliding_volume_handle_outside"
+                        style="@style/ButtonVolume"
+                        android:layout_width="@dimen/button_control"
+                        android:layout_height="@dimen/button_control"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/btn_volume" />
+
+                    <ImageButton
+                        android:id="@+id/button_prev"
+                        style="@style/ButtonControl"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/button_playpause"
+                        android:src="@drawable/img_btn_prev" />
+
+                    <ImageButton
+                        android:id="@+id/button_playpause"
+                        style="@style/ButtonControl.ButtonPlayPause"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@null"
+                        android:src="@drawable/btn_playpause" />
+
+                    <ImageButton
+                        android:id="@+id/button_next"
+                        style="@style/ButtonControl"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/button_playpause"
+                        android:src="@drawable/img_btn_next" />
+
+                    <ImageButton
+                        android:id="@+id/button_settings"
+                        style="@style/ButtonControl"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/img_btn_settings" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lo_volume"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_control"
+                    android:background="@drawable/bg_volumelo"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone" >
+
+                    <ImageButton
+                        android:id="@+id/sliding_volume_handle"
+                        style="@style/ButtonVolume"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="0"
+                        android:background="@drawable/button_volume_active"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/btn_volume_a" />
+
+                    <SeekBar
+                        android:id="@+id/seekbar_volume"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginLeft="@dimen/volume_margin"
+                        android:layout_marginRight="@dimen/volume_margin"
+                        android:layout_weight="1"
+                        android:maxHeight="@dimen/song_progress_bar"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:progressDrawable="@drawable/seek_progress"
+                        android:thumb="@drawable/seek_thumb"
+                        android:thumbOffset="0dp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <!-- </LinearLayout> -->
+        <!-- </LinearLayout> -->
+
+        <RelativeLayout
+            android:id="@+id/lo_lyrics"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal" >
+
+            <SlidingDrawer
+                android:id="@+id/sliding_lyrics"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:allowSingleTap="true"
+                android:animateOnClick="true"
+                android:content="@+id/sliding_web_content"
+                android:handle="@+id/sliding_handle"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ImageButton
+                    android:id="@+id/sliding_handle"
+                    style="@style/ButtonDefault"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:background="@color/main_color"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/img_btn_lyrics_slide_down"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/sliding_web_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/bg_lyrics" >
+
+                    <WebView
+                        android:id="@+id/sliding_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </RelativeLayout>
+            </SlidingDrawer>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

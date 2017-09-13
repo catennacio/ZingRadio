@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_dark_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:orientation="horizontal"
+         >
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            style="@style/ButtonBack"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:visibility="visible" />
+        
+        <FrameLayout
+            android:id="@+id/lo_searchbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/editSearch"
+                style="@style/SearchBox"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:lines="1"
+                android:paddingRight="0dp"
+                android:textCursorDrawable="@null" />
+
+            <Button
+                android:id="@+id/btn_delete_text"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/img_btn_delete" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/search_album_result" />
+
+    <include layout="@layout/search_artist_result" />
+
+    <FrameLayout android:layout_width="wrap_content"  
+        		android:layout_height="wrap_content"
+        		android:layout_gravity="center"
+        >
+    	<include layout="@layout/search_song_result" />
+    	
+    	<ProgressBar android:id="@+id/song_list_progressbar"
+    	    	android:layout_gravity="center"
+    	    	android:layout_width="30dp"
+        		android:layout_height="30dp"
+    	    	android:visibility="gone"
+    	    />
+    </FrameLayout>
+    
+
+    <ProgressBar
+        android:id="@+id/search_fragment_progress_bar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="@color/gray"
+        android:visibility="gone" />
+
+</LinearLayout>

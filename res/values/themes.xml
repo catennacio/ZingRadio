@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.Zadio" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarSize">@dimen/lo_topbar</item>
+        <!-- 
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionButtonStyle">@style/ButtonTop</item>
+        <item name="actionBarItemBackground">@drawable/btn_next</item>
+        <item name="selectableItemBackground">@color/bg_topbar</item>
+         -->
+    </style>
+</resources>

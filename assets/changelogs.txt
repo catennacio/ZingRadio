@@ -1,0 +1,49 @@
+1.2.130605
+- Fixed a crash issue when scrolling song list too fast on Galaxy Y or Android 2.3
+- Fixed a crash issue when search results take too long to come back and garbage collector collects the Search fragment causing crashes when user is not in Search fragment anymore
+- Fixed lyrics same color with background on some devices
+- Changed volume to horizontal.
+- Fixed some rare crashes due to slow network.
+
+
+1.1.20130404
+*** As requested by many users, the "Download" feature has been implemented to support offline play.
+Songs added to My Songs will be automatically downloaded. Turn this auto-download feature off in menu Settings.
+- To download songs already added in My Songs, press and hold for more options.
+- When playing a song, the app checks if the song was downloaded before. If it was, the app will play from sdcard, or streaming from the internet otherwise.
+
+*** Enjoy and give some feedback!
+
+1.1.20130331
+- Support onscreen volume
+- Minor bug fixes
+
+1.1.20130330
+- Added new feature: add song to your playlist for later replay
+- Optimized streaming for slow networks.
+- Fixed some rare crashes on some devices (sigh... talking about Android fragmentation)
+
+1.1.20130326
+- Added new feature to allow user to add a channel to favorite
+- Updated user interface.
+- Replaced native Android 2.3.6 XmlParser with K2XmlParser to solve crash issue.
+
+1.1.20130316
+- Revamped user interface
+- Improved play back stability on slow networks
+
+1.0.20130315
+- Added Confessions channel
+- Improved stability
+
+1.0.20130308
+- Fixed menu shows no channels when coming back to app after a while
+
+1.0.20130307
+- Fixed some crashes
+
+1.0.20130306
+- Fixed some crashes
+
+1.0.20130304
+- App released

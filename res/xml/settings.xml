@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory	android:key="category_general"
+        				android:title="@string/settings_category_general" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="auto_download"
+            android:summary="@string/settings_auto_download_summary"
+            android:title="@string/settings_auto_download" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="instant_search"
+            android:summary="@string/settings_instant_search_summary"
+            android:title="@string/settings_instant_search" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_notification_when_play"
+            android:summary="@string/settings_show_notification_when_play_summary"
+            android:title="@string/settings_show_notification_when_play" />
+        <CheckBoxPreference
+            android:key="timer_off_select"
+            android:title="@string/settings_timer_off" 
+            android:summary="@string/settings_timer_off_summary"
+            />
+
+        <com.friends.zingradio.ui.OffTimerDialogPreference
+            android:layout_marginLeft="10dp"
+            android:defaultValue="true"
+            android:key="timer_off_dialog"
+            android:summary="@string/settings_timer_off_summary"
+            android:title="@string/msg_settings_timer_select_title" />
+        
+        <CheckBoxPreference
+            android:key="timer_on_select"
+            android:title="@string/settings_timer_on" 
+            android:summary="@string/settings_timer_on_summary"
+            />
+
+        <com.friends.zingradio.ui.OnTimerDialogPreference
+            android:layout_marginLeft="10dp"
+            android:defaultValue="true"
+            android:key="timer_on_dialog"
+            android:summary="@string/settings_timer_on_summary"
+            android:title="@string/msg_settings_timer_select_title" />
+        <!-- android:dialogLayout="@layout/dialog_timer" -->
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="category_facebook"
+        android:title="@string/settings_accounts" >
+
+        <!--
+        <Preference
+            android:key="facebook"
+            android:summary="@string/settings_login_facebook_summary"
+            android:title="@string/settings_login_facebook" 
+            android:layout="@layout/pref_facebook"
+            />
+        -->
+        <Preference
+            android:key="facebook"
+            android:summary="@string/settings_login_facebook_summary"
+            android:title="@string/settings_login_facebook" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Zing Radio" >
+        <Preference
+            android:key="show_market"
+            android:summary="@string/settings_market_summary"
+            android:title="@string/settings_market" />
+
+        <com.friends.zingradio.ui.AboutDialogPreference
+            android:key="settings_about"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="OK"
+            android:summary="@string/settings_about_summary"
+            android:title="@string/settings_about" />
+
+        <!--
+             android:dialogMessage="@string/settings_about_text"
+					android:dialogTitle="@string/app_name"
+        -->
+    </PreferenceCategory>
+
+</PreferenceScreen>

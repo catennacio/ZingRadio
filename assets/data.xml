@@ -1,0 +1,836 @@
+<zingradio>
+    <categories>
+	    <category>
+	        <name>Thể loại</name>
+	        <icon>@drawable/ic_station</icon>
+	        <id>0</id>
+	        <url>Theloai.html</url>
+	        <stations>
+	            <station>
+	                <name>V-POP</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z08I</id>
+	                <serverId>ZmJHTLHadalkJvQTLvctvGLG</serverId>
+	                <url>V-Pop/ZWZ9Z08I.html</url>
+	            </station>
+	            <station>
+	                <name>US-UK</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z08O</id>
+	                <serverId>LHJHtZHadNAkcvsyLDJtbnkn</serverId>
+	                <url>US-UK/ZWZ9Z08O.html</url>
+	            </station>
+	            <station>
+	                <name>K-Pop</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z08W</id>
+	                <serverId>kmJHTkmadNzLxvCTLDJybHLH</serverId>
+	                <url>K-Pop/ZWZ9Z08W.html</url>
+	            </station>
+	            <station>
+	                <name>Audiophile</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0C0</id>
+	                <serverId>kGxGTLGNBaSkcJxyLDcybmLn</serverId>
+	                <url>Audiophile/ZWZ9Z0C0.html</url>
+	            </station>
+	            <station>
+	                <name>Nhạc Trữ Tình</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0CB</id>
+	                <serverId>LmJGyLGNVNzLJuiTZFJTbnLm</serverId>
+	                <url>Nhac-Tru-Tinh/ZWZ9Z0CB.html</url>
+	            </station>
+	            <station>
+	                <name>Rap / Hip Hop Việt</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z08C</id>
+	                <serverId>kGJnTLHaVsSkcdgykFJtvnkH</serverId>
+	                <url>Rap-Hip-Hop-Viet/ZWZ9Z08C.html</url>
+	            </station>
+	            <station>
+	                <name>Rock Việt</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0BC</id>
+	                <serverId>kHJnykHNVNALxxAtZvJybnZn</serverId>
+	                <url>Rock-Viet/ZWZ9Z0BC.html</url>
+	            </station>
+	            <station>
+	                <name>Nhạc Phim</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0DD</id>
+	                <serverId>LnJGtLGsVaSZuLNtkDJyFnLm</serverId>
+	                <url>Nhac-Phim/ZWZ9Z0DD.html</url>
+	            </station>
+	            <station>
+	                <name>Nhạc Hoa Lời Việt</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0FI</id>
+	                <serverId>ZGJGyLHadNAkuVsTLbJTFGLG</serverId>
+	                <url>Nhac-Hoa-Loi-Viet/ZWZ9Z0FI.html</url>
+	            </station>
+	            <station>
+	                <name>Nhạc Vàng</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0E6</id>
+	                <serverId>kmJGykHsdaSLEDgyLbJyFHkG</serverId>
+	                <url>Nhac-Vang/ZWZ9Z0E6.html</url>
+	            </station>
+	            <station>
+	                <name>Nhạc Quê Hương</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z090</id>
+	                <serverId>kHJGtkGNdslkJlGtZbJyFHkn</serverId>
+	                <url>Nhac-Que-Huong/ZWZ9Z090.html</url>
+	            </station>
+	            <station>
+	                <name>Nhạc Cách Mạng</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z08E</id>
+	                <serverId>LncGtkGadNSLxdJyZvcyvHkn</serverId>
+	                <url>Nhac-Cach-Mang/ZWZ9Z08E.html</url>
+	            </station>
+	            <station>
+	                <name>Nhạc Thiếu Nhi</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z08F</id>
+	                <serverId>kHJGtLnNdNlZJdRtkDxTDGkH</serverId>
+	                <url>Thieu-Nhi/ZWZ9Z08F.html</url>
+	            </station>
+	            <station>
+	                <name>Pop Ballad</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0D9</id>
+	                <serverId>kGJGyLnsBNSLiLVTkDcybHkG</serverId>
+	                <url>Pop-Ballad/ZWZ9Z0D9.html</url>
+	            </station>
+	            <station>
+	                <name>Rock</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0CC</id>
+	                <serverId>LHcnyZHNVNALRnHyLvJyvmLm</serverId>
+	                <url>Rock/ZWZ9Z0CC.html</url>
+	            </station>
+	            <station>
+	                <name>Rock Ballad</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0E8</id>
+	                <serverId>kHcmyLnsdNSLEFctkDJyDHkG</serverId>
+	                <url>Rock-Ballad/ZWZ9Z0E8.html</url>
+	            </station>
+	            <station>
+	                <name>Heavy - Power Metal</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0DA</id>
+	                <serverId>knJGTLmaBsSLikAyLDcybnZm</serverId>
+	                <url>Heavy-Power-Metal/ZWZ9Z0DA.html</url>
+	            </station>
+	            <station>
+	                <name>Country</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0DC</id>
+	                <serverId>kHcGykmNdNlLuLCtkbcTDnkm</serverId>
+	                <url>Country/ZWZ9Z0DC.html</url>
+	            </station>
+	            <station>
+	                <name>R &#38; B</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0DB</id>
+	                <serverId>ZmxGTZnNdNzLELQyLDJyDmLm</serverId>
+	                <url>R-B/ZWZ9Z0DB.html</url>
+	            </station>
+	            <station>
+	                <name>Rap / Hip Hop</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0EO</id>
+	                <serverId>LnJGtZnNdazkivByLvJtvGLH</serverId>
+	                <url>Rap-Hip-Hop/ZWZ9Z0EO.html</url>
+	            </station>
+	            <station>
+	                <name>Dance</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0E9</id>
+	                <serverId>LGxHtZmsdNlLRFuyZFcybHLm</serverId>
+	                <url>Dance/ZWZ9Z0E9.html</url>
+	            </station>
+	            <station>
+	                <name>Latin Pop</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0EI</id>
+	                <serverId>ZHxntkHNBNSLuFZTLDJTbmZH</serverId>
+	                <url>Latin-Pop/ZWZ9Z0EI.html</url>
+	            </station>
+	            <station>
+	                <name>Jazz &#38; Blues</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0EW</id>
+	                <serverId>ZmJmyZnNBalkuFbyLvxTFnLn</serverId>
+	                <url>Jazz-Blues/ZWZ9Z0EW.html</url>
+	            </station>
+	            <station>
+	                <name>J-Pop</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0E7</id>
+	                <serverId>LnJmtkmaVNAZuvNtLFJTDGLH</serverId>
+	                <url>J-Pop/ZWZ9Z0E7.html</url>
+	            </station>
+	            <station>
+	                <name>French Hits</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0EF</id>
+	                <serverId>kHcnyLGNVNlLEVQTZDxtbmkG</serverId>
+	                <url>French-Hits/ZWZ9Z0EF.html</url>
+	            </station>
+	        </stations>
+	    </category>
+	    
+	    <category>
+	        <name>Chủ đề</name>
+	        <icon>@drawable/ic_station</icon>
+	        <id>1</id>
+	        <url>Chude.html</url>
+	        <stations>
+	            <station>
+	                <name>Zing Confessions</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZI69</id>
+	                <serverId>LGJHykGadNSbnQNyLvcyvmkH</serverId>
+	                <url>Confessions/ZWZ9ZI69.html</url>
+	            </station>
+	            <station>
+	                <name>Zing Countdown</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZI6A</id>
+	                <serverId>kHJHTLnadNAbHWJtkbxtFGLn</serverId>
+	                <url>Zing-Countdown/ZWZ9ZI6A.html</url>
+	            </station>
+	            <station>
+	                <name>Chuyến Tàu Âm Nhạc</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZIZ7</id>
+	                <serverId>kHcHyLGNBsAvnVEyLvJtFHLm</serverId>
+	                <url>Chuyen-Tau-Am-Nhac/ZWZ9ZIZ7.html</url>
+	            </station>
+	            <station>
+	                <name>Tạp chí Showbiz</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZI6B</id>
+	                <serverId>ZmJGtLHNdaAbHpiyLbJybGLH</serverId>
+	                <url>Tap-Chi-Showbiz/ZWZ9ZI6B.html</url>
+	            </station>
+	            <station>
+	                <name>Điểm Tin Giải Trí</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZIZI</id>
+	                <serverId>LGcGyLGNdNlbnBVyLDJyDGLG</serverId>
+	                <url>Diem-Tin-Giai-Tri/ZWZ9ZIZ7.html</url>
+	            </station>
+	            <station>
+	                <name>Sổ Tay Cảm Xúc</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZIZZ</id>
+	                <serverId>knJntkHsBslbGVstLvxyDnkn</serverId>
+	                <url>So-Tay-Cam-Xuc/ZWZ9ZIZZ.html</url>
+	            </station>
+	            <station>
+	                <name>Nhịp Điệu Điện Tử</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZIZU</id>
+	                <serverId>knxnTLmNBazFGdXyLvctvHLH</serverId>
+	                <url>Nhip-Dieu-Dien-Tu/ZWZ9ZIZU.html</url>
+	            </station>
+	            <station>
+	                <name>Giai Điệu Á Châu</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZIZW</id>
+	                <serverId>ZnJmTkmsBNADnVzTLDJtFnLm</serverId>
+	                <url>Giai-Dieu-A-Chau/ZWZ9ZIZW.html</url>
+	            </station>
+	            <station>
+	                <name>Kết Nối Trái Tim</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZI67</id>
+	                <serverId>kHxnykHsdNSFmQQykDctFHLm</serverId>
+	                <url>Ket-Noi-Trai-Tim/ZWZ9ZI67.html</url>
+	            </station>
+	            <station>
+	                <name>Giai Điệu Tình Yêu</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z088</id>
+	                <serverId>knJmtLHNVsALxdvykbxTvnLG</serverId>
+	                <url>Giai-Dieu-Tinh-Yeu/ZWZ9Z088.html</url>
+	            </station>
+	            <station>
+	                <name>Theo Yêu Cầu</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z087</id>
+	                <serverId>kGxmTZnadNlZJdZykFxyFnLH</serverId>
+	                <url>Theo-Yeu-Cau/ZWZ9Z087.html</url>
+	            </station>
+	            <station>
+	                <name>Nhạc Bất Hủ</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z086</id>
+	                <serverId>LHJGyZmNdszZxdGTLbJybmLn</serverId>
+	                <url>Nhac-Bat-Hu/ZWZ9Z086.html</url>
+	            </station>
+	            <station>
+	                <name>Tuổi Học Trò</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0CD</id>
+	                <serverId>kHxmyZmNdNlLuHktZFJybHLn</serverId>
+	                <url>Tuoi-Hoc-Tro/ZWZ9Z0CD.html</url>
+	            </station>
+	            <station>
+	                <name>Ca Khúc Mới</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0BE</id>
+	                <serverId>LnJHyLHadNALxxhTLDxyFnZn</serverId>
+	                <url>Ca-Khuc-Moi/ZWZ9Z0BE.html</url>
+	            </station>
+	            <station>
+	                <name>Coffee Shop</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0DW</id>
+	                <serverId>ZGJHykHaVNSZingTkbxyDHZG</serverId>
+	                <url>Coffee-Shop/ZWZ9Z0DW.html</url>
+	            </station>
+	            <station>
+	                <name>Party Songs</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0D8</id>
+	                <serverId>kGJHyknsBNSLiLDTLDcTbnLH</serverId>
+	                <url>Party-Songs/ZWZ9Z0D8.html</url>
+	            </station>
+	            <station>
+	                <name>Hòa Tấu</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0DO</id>
+	                <serverId>kncnyLGsdazLEmNyZDxtFnLG</serverId>
+	                <url>Hoa-Tau/ZWZ9Z0DO.html</url>
+	            </station>
+	            <station>
+	                <name>Mưa</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0FZ</id>
+	                <serverId>LnJnTZmadNzZEzLyLbJTFmLH</serverId>
+	                <url>Mua/ZWZ9Z0FZ.html</url>
+	            </station>
+	            <station>
+	                <name>Câu Chuyện Tình Tôi</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZIUE</id>
+	                <serverId>ZmxHyknsdsSbGBmTZFJyFGkG</serverId>
+	                <url>Cau-Chuyen-Tinh-Toi/ZWZ9ZIUE.html</url>
+	            </station>
+	            <station>
+	                <name>Nhạc Trịnh</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0D0</id>
+	                <serverId>LnJnyLHNVazkRnlTLbJtvmZG</serverId>
+	                <url>Nhac-Trinh/ZWZ9Z0D0.html</url>
+	            </station>
+	            <station>
+	                <name>Gia Đình Tôi</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0F6</id>
+	                <serverId>LHxGtLGNdaAkRAFtkDxybHLm</serverId>
+	                <url>Gia-Dinh-Toi/ZWZ9Z0F6.html</url>
+	            </station>
+	            <station>
+	                <name>Tuổi Trung Niên</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0DI</id>
+	                <serverId>ZGxmTLHadNzZRnQyLDcyFmLH</serverId>
+	                <url>Tuoi-Trung-Nien/ZWZ9Z0DI.html</url>
+	            </station>
+	            <station>
+	                <name>Good Morning</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z08A</id>
+	                <serverId>LnJnyknNBNALcVlTZDJTDmLn</serverId>
+	                <url>Good-Morning/ZWZ9Z08A.html</url>
+	            </station>
+	            <station>
+	                <name>Good Night</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z089</id>
+	                <serverId>LHcGtLnNdNALxVVykFxtDGZH</serverId>
+	                <url>Good-Night/ZWZ9Z089.html</url>
+	            </station>
+	        </stations>
+	    </category>
+	    
+	    <category>
+	        <name>Electronic</name>
+	        <icon>@drawable/ic_action_about</icon>
+	        <id>2</id>
+	        <url>Electronic.html</url>
+	        <stations>
+	            <station>
+	                <name>Dubstep</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZI6F</id>
+	                <serverId>ZHxnTkmadslFnhdyLFctvmZG</serverId>
+	                <url>Dubstep/ZWZ9ZI6F.html</url>
+	            </station>
+	            <station>
+	                <name>Electro</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZI70</id>
+	                <serverId>ZmJntLGadslvmXSyLFxyFmZn</serverId>
+	                <url>Electro/ZWZ9ZI70.html</url>
+	            </station>
+	            <station>
+	                <name>Hip House</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZI7I</id>
+	                <serverId>LnJnyknsdNAbnhpyLFJyFmLG</serverId>
+	                <url>Hip-House/ZWZ9ZI7I.html</url>
+	            </station>
+	            <station>
+	                <name>80's Music</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZI6C</id>
+	                <serverId>LHJmtkmNVaAFmhHtLvcTvHLG</serverId>
+	                <url>80-s-Music/ZWZ9ZI6C.html</url>
+	            </station>
+	            <station>
+	                <name>Breakbeat</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZI68</id>
+	                <serverId>LHJnyZnsdslFmphyZDxyDHZn</serverId>
+	                <url>Breakbeat/ZWZ9ZI68.html</url>
+	            </station>
+	            <station>
+	                <name>Nonstop</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0DU</id>
+	                <serverId>ZGxGyLmsdaSZRmJtLbcyDHLG</serverId>
+	                <url>Nonstop/ZWZ9Z0DU.html</url>
+	            </station>
+	            <station>
+	                <name>Drum And Bass</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZI6E</id>
+	                <serverId>LmcHTknsdNzFGhFyLFJtFGLH</serverId>
+	                <url>Drum-And-Bass/ZWZ9ZI6E.html</url>
+	            </station>
+	            <station>
+	                <name>Disco</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9ZI6D</id>
+	                <serverId>LnJGyZnsdalFGgLtkFJyvGZG</serverId>
+	                <url>Disco/ZWZ9ZI6D.html</url>
+	            </station>
+	            <station>
+	                <name>Remixes</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0BB</id>
+	                <serverId>ZGcHTLnsVaSkxJVyLDxtvGkn</serverId>
+	                <url>Remixes/ZWZ9Z0BB.html</url>
+	            </station>
+	            <station>
+	                <name>Trance</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>ZWZ9Z0BB</id>
+	                <serverId>LHxmyLGNVNlLuZkyLvxtFnLn</serverId>
+	                <url>Trance/ZWZ9Z0D7.html</url>
+	            </station>
+	        </stations>
+	    </category>
+	    <category>
+	        <name>Nghệ sĩ</name>
+	        <icon>@drawable/ic_action_about</icon>
+	        <id>3</id>
+	        <url>Nghesi.html</url>
+	        <stations>
+	            <station>
+	                <name>Đàm Vĩnh Hưng</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z090</id>
+	                <serverId>ZmJGtLXykFctDmLH</serverId>
+	                <url>Dam-Vinh-Hung/IWZ9Z090.html</url>
+	            </station>
+	            <station>
+	                <name>Quang Lê</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZOBC</id>
+	                <serverId>LnxnyxFctLbJyvmLm</serverId>
+	                <url>Quang-Le/IWZ9ZOBC.html</url>
+	            </station>
+	            <station>
+	                <name>Lệ Quyên</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z0EU</id>
+	                <serverId>LGcmyZmGyZFcyvGZG</serverId>
+	                <url>Le-Quyen/IWZ9Z0EU.html</url>
+	            </station>
+	            <station>
+	                <name>Khắc Việt</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZB76</id>
+	                <serverId>ZnJmtFcGgTZbJtbnLm</serverId>
+	                <url>Khac-Viet/IWZ9ZB76.html</url>
+	            </station>
+	            <station>
+	                <name>Phạm Trưởng</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZECF</id>
+	                <serverId>LGJmTdChVyLDJtbHkG</serverId>
+	                <url>Pham-Truong/IWZ9ZECF.html</url>
+	            </station>
+	            <station>
+	                <name>Đan Trường</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z0CW</id>
+	                <serverId>LnJGygXtkFxTFGLG</serverId>
+	                <url>Dan-Truong/IWZ9Z0CW.html</url>
+	            </station>
+	            <station>
+	                <name>Nguyễn Văn Chung</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ96ZIC</id>
+	                <serverId>LGJHyQbsXtkFJyvmkn</serverId>
+	                <url>Nguyen-Van-Chung/IWZ96ZIC.html</url>
+	            </station>
+	            <station>
+	                <name>Cẩm Ly</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z0F0</id>
+	                <serverId>ZnJHyLLDyZDxyvGZn</serverId>
+	                <url>Cam-Ly/IWZ9Z0F0.html</url>
+	            </station>
+	            <station>
+	                <name>Mỹ Tâm</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZIF8</id>
+	                <serverId>LGcGTVsgyLbJyDHLn</serverId>
+	                <url>My-Tam/IWZ9ZIF8.html</url>
+	            </station>
+	            <station>
+	                <name>Nguyễn Nhất Huy</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZI0Z</id>
+	                <serverId>LGJntZVByZbxyFHZH</serverId>
+	                <url>Nguyen-Nhat-Huy/IWZ9ZI0Z.html</url>
+	            </station>
+	            <station>
+	                <name>Noo Phước Thịnh</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZUU6</id>
+	                <serverId>LGJnyEhhTZFcTDnLG</serverId>
+	                <url>Noo-Phuoc-Thinh/IWZ9ZUU6.html</url>
+	            </station>
+	            <station>
+	                <name>Yao Si Ting</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ98Z7D</id>
+	                <serverId>ZnJHykdQgQTkvcybmLG</serverId>
+	                <url>Yao-Si-Ting/IWZ98Z7D.html</url>
+	            </station>
+	            <station>
+	                <name>Tokyo Square</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ98UAW</id>
+	                <serverId>LHJHyLBBAXyZbJTbmLm</serverId>
+	                <url>Tokyo-Square/IWZ98UAW.html</url>
+	            </station>
+	            <station>
+	                <name>Hồ Ngọc Hà</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZW6U</id>
+	                <serverId>kmcmySJlTLDJybHkm</serverId>
+	                <url>Ho-Ngoc-Ha/IWZ9ZW6U.html</url>
+	            </station>
+	            <station>
+	                <name>KARA</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZWDI</id>
+	                <serverId>kmJnyQRByZDctDHZm</serverId>
+	                <url>KARA/IWZ9ZWDI.html</url>
+	            </station>
+	            <station>
+	                <name>T-ARA</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z6FO</id>
+	                <serverId>LmxmTkhQZyZvJybHZn</serverId>
+	                <url>T-ARA/IWZ9Z6FO.html</url>
+	            </station>
+	            <station>
+	                <name>SNSD</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZZC6</id>
+	                <serverId>ZmxHyLVpnyLbJyvmkH</serverId>
+	                <url>SNSD/IWZ9ZZC6.html</url>
+	            </station>
+	            <station>
+	                <name>Justin Bieber</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZOCZ</id>
+	                <serverId>ZnJHtxdNTkvxybHLn</serverId>
+	                <url>Justin-Bieber/IWZ9ZOCZ.html</url>
+	            </station>
+	            <station>
+	                <name>Westlife</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZU0A</id>
+	                <serverId>LmxmyuHgyLDcyvHZH</serverId>
+	                <url>Westlife/IWZ9ZU0A.html</url>
+	            </station>
+	            <station>
+	                <name>Phi Nhung</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZIF6</id>
+	                <serverId>LncGtBalykvxTbHZG</serverId>
+	                <url>Phi-Nhung/IWZ9ZIF6.html</url>
+	            </station>
+	            <station>
+	                <name>Thanh Sơn</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ96DO7</id>
+	                <serverId>ZnJmtsVpLTLDJybGLn</serverId>
+	                <url>Thanh-Son/IWZ96DO7.html</url>
+	            </station>
+	            <station>
+	                <name>Tuấn Hưng</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZOC0</id>
+	                <serverId>ZnJmtJBbTZbJybmkG</serverId>
+	                <url>Tuan-Hung/IWZ9ZOC0.html</url>
+	            </station>
+	            <station>
+	                <name>Backstreet Boys</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZO8A</id>
+	                <serverId>kHJnyNNctZDJTbGLG</serverId>
+	                <url>Backstreet-Boys/IWZ9ZO8A.html</url>
+	            </station>
+	            <station>
+	                <name>Lady GaGa</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZOCD</id>
+	                <serverId>kmJnTxAQtZDxybGLn</serverId>
+	                <url>Lady-GaGa/IWZ9ZOCD.html</url>
+	            </station>
+	            <station>
+	                <name>Avril Lavigne</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZOIC</id>
+	                <serverId>LHJnyhCxyLDJyvmLH</serverId>
+	                <url>Avril-Lavigne/IWZ9ZOIC.html</url>
+	            </station>
+	            <station>
+	                <name>Miu Lê</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ96IAC</id>
+	                <serverId>LGJHTSdRXtZvctDGLG</serverId>
+	                <url>Miu-Le/IWZ96IAC.html</url>
+	            </station>
+	            <station>
+	                <name>Yanbi</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ96FEZ</id>
+	                <serverId>LncntcGdayZbxyDmkG</serverId>
+	                <url>Yanbi/IWZ96FEZ.html</url>
+	            </station>
+	            <station>
+	                <name>Katy Perry</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZOCU</id>
+	                <serverId>LnJGtJdhtZDJTFnkG</serverId>
+	                <url>Katy-Perry/IWZ9ZOCU.html</url>
+	            </station>
+	            <station>
+	                <name>Michael Jackson</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZA68</id>
+	                <serverId>LmxGtFpdgTLvJyvHkG</serverId>
+	                <url>Michael-Jackson/IWZ9ZA68.html</url>
+	            </station>
+	            <station>
+	                <name>Selena Gomez</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZO9Z</id>
+	                <serverId>ZnxmTNxRyLDcyvnZm</serverId>
+	                <url>Selena-Gomez/IWZ9ZO9Z.html</url>
+	            </station>
+	            <station>
+	                <name>Shayne Ward</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZOCF</id>
+	                <serverId>ZHJHTJSNykbcTbHkn</serverId>
+	                <url>Shayne-Ward/IWZ9ZOCF.html</url>
+	            </station>
+	            <station>
+	                <name>Miley Cyrus</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZO96</id>
+	                <serverId>LHxGyNuGyLvcyvnLn</serverId>
+	                <url>IWZ9ZO96.html</url>
+	            </station>
+	            <station>
+	                <name>IU</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZIU9</id>
+	                <serverId>LGJGTDmLykvJTbGLn</serverId>
+	                <url>IU/IWZ9ZIU9.html</url>
+	            </station>
+	            <station>
+	                <name>CNBlue</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZWO8</id>
+	                <serverId>LnJGTAlHykFcyvmkn</serverId>
+	                <url>CNBlue/IWZ9ZWO8.html</url>
+	            </station>
+	            <station>
+	                <name>DBSK</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZZBI</id>
+	                <serverId>LncGyZdFutLvJyvGkn</serverId>
+	                <url>DBSK/IWZ9ZZBI.html</url>
+	            </station>
+	            <station>
+	                <name>Davichi</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZWOD</id>
+	                <serverId>ZGJHtSAQTZFJybGLm</serverId>
+	                <url>Davichi/IWZ9ZWOD.html</url>
+	            </station>
+	            <station>
+	                <name>Adele</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z09U</id>
+	                <serverId>kmJGtvGykbxtFGkG</serverId>
+	                <url>Adele/IWZ9Z09U.html</url>
+	            </station>
+	            <station>
+	                <name>The Men</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZC96</id>
+	                <serverId>kGJmTVnuAyLvJTFGLH</serverId>
+	                <url>The-Men/IWZ9ZC96.html</url>
+	            </station>
+	            <station>
+	                <name>Lý Hải</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZWUI</id>
+	                <serverId>kmJGTSziyZbcTbmLG</serverId>
+	                <url>Ly-Hai/IWZ9ZWUI.html</url>
+	            </station>
+	            <station>
+	                <name>Quang Vinh</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z0A6</id>
+	                <serverId>ZnJGTdxyZvctbnLH</serverId>
+	                <url>Quang-Vinh/IWZ9Z0A6.html</url>
+	            </station>
+	            <station>
+	                <name>Phạm Quỳnh Anh</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZW8O</id>
+	                <serverId>LnxGTpZWtLFxTDGLG</serverId>
+	                <url>Pham-Quynh-Anh/IWZ9ZW8O.html</url>
+	            </station>
+	            <station>
+	                <name>Dương Triệu Vũ</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ96UZ0</id>
+	                <serverId>LHxHtQmNbyZbcyDmkn</serverId>
+	                <url>Duong-Trieu-Vu/IWZ96UZ0.html</url>
+	            </station>
+	            <station>
+	                <name>Wanbi Tuấn Anh</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZCE7</id>
+	                <serverId>ZGJnydLNQyZbcTFnZG</serverId>
+	                <url>Wanbi-Tuan-Anh/IWZ9ZCE7.html</url>
+	            </station>
+	            <station>
+	                <name>Phương Thanh</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZW8Z</id>
+	                <serverId>ZHJHypLNtkDJtvHkn</serverId>
+	                <url>Phuong-Thanh/IWZ9ZW8Z.html</url>
+	            </station>
+	            <station>
+	                <name>Lâm Chấn Huy</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZIZO</id>
+	                <serverId>LGcHtFZLyLbJybnkH</serverId>
+	                <url>Lam-Chan-Huy/IWZ9ZIZO.html</url>
+	            </station>
+	            <station>
+	                <name>Linkin Park</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z087</id>
+	                <serverId>LnJHystLDJtFHLH</serverId>
+	                <url>Linkin-Park/IWZ9Z087.html</url>
+	            </station>
+	            <station>
+	                <name>Mariah Carey</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z9ZC</id>
+	                <serverId>LHJGtvDXcyZFJyFnZn</serverId>
+	                <url>Mariah-Carey/IWZ9Z9ZC.html</url>
+	            </station>
+	            <station>
+	                <name>China Dolls</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZWDE</id>
+	                <serverId>kmxmTCngykvJybGLn</serverId>
+	                <url>China-Dolls/IWZ9ZWDE.html</url>
+	            </station>
+	            <station>
+	                <name>Spice Girls</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZC7C</id>
+	                <serverId>kGJnTdnXJyZDJtvHkn</serverId>
+	                <url>Spice-Girls/IWZ9ZC7C.html</url>
+	            </station>
+	            <station>
+	                <name>F4</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z0AA</id>
+	                <serverId>ZGJnTSFyLbctDGLG</serverId>
+	                <url>F4/IWZ9Z0AA.html</url>
+	            </station>
+	            <station>
+	                <name>Bảo Chấn</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z8WE</id>
+	                <serverId>LGcmtkiChyZvJTFnZH</serverId>
+	                <url>Bao-Chan/IWZ9Z8WE.html</url>
+	            </station>
+	            <station>
+	                <name>Paramore</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z0A8</id>
+	                <serverId>kHxnyzmykFctbmLH</serverId>
+	                <url>Paramore/IWZ9Z0A8.html</url>
+	            </station>
+	            <station>
+	                <name>Đức Trí</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z86C</id>
+	                <serverId>LGcnyDGFxtkvctDmLH</serverId>
+	                <url>Duc-Tri/IWZ9Z86C.html</url>
+	            </station>
+	            <station>
+	                <name>Võ Thiện Thanh</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9ZIUD</id>
+	                <serverId>knxGTvnQyLFJybGLn</serverId>
+	                <url>Vo-Thien-Thanh/IWZ9ZIUD.html</url>
+	            </station>
+	            <station>
+	                <name>Khánh Ngọc</name>
+	                <icon>@drawable/ic_station</icon>
+	                <id>IWZ9Z0AO</id>
+	                <serverId>LHxmtdpyLbJyDGZG</serverId>
+	                <url>Khanh-Ngoc/IWZ9Z0AO.html</url>
+	            </station>
+	        </stations>
+	    </category>
+    </categories>
+</zingradio>

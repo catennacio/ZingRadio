@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Actions --> 
+    <array name="actions_icons">
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    
+    <string-array name="actions_names">
+        <item>Radio</item>
+        <item>Thể loại</item>
+        <item>Chủ đề</item>
+        <item>Electronic</item>
+        <item>Nghệ sĩ</item>
+        <item>@string/my_channels</item>
+        <item>@string/my_songs</item>
+        <item>Điều khiển</item>
+        <item>Nghe gợi ý</item>
+        <item>Settings</item>
+    </string-array>
+    
+    <string-array name="actions_links">
+        <item>header://0</item>
+        <item>category://0</item>
+        <item>category://1</item>
+        <item>category://2</item>
+        <item>category://3</item>
+        <item>category://4</item>
+        <item>app://mysongs</item>
+        <item>header://1</item>
+        <item>app://suggest</item>
+        <item>app://settings</item>
+    </string-array>
+</resources>

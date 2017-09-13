@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lo_titlebar"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/lo_topbar"
+    android:background="@color/bg_topbar"
+    android:gravity="center_vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp" >
+    
+    <ImageButton
+                android:id="@+id/btn_channel_list"
+                style="@style/ButtonTop"
+                android:scaleType="centerCrop"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/img_btn_channel_list" />
+    
+    <TextView
+                android:id="@+id/textViewStationName"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:paddingLeft="4dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/txt_channelname"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+    
+    <ImageButton
+                android:id="@+id/btn_add_channel_fav"
+                style="@style/ButtonTop"
+                android:scaleType="centerCrop"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/img_btn_star_off" />
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2012 Steven Rudenko
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+    http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+   
+    <color name="main_color">#587380</color>
+    <color name="sec_color">#304149</color>
+    <color name="thi_color">#c1ced5</color>
+    <color name="fou_color">#c3d4dd</color>
+    <color name="bg_color">#e9f3f9</color>
+    <color name="bg_dark_color">#1c262b</color>
+    <color name="mainon_color">#c3d4dd</color>
+    <color name="mainon_color_50">#80c3d4dd</color>
+    <color name="mainon_color_75">#c0c3d4dd</color>
+    
+    
+    
+    <color name="main_color_30">#4d587380</color>
+    <color name="main_color_50">#80587380</color>
+    
+    <color name="thi_color_90">#e6c1ced5</color>
+    
+    <color name="fou_color_95">#e6d9eaf4</color>
+    <color name="fou_color_50">#80d9eaf4</color>
+    
+    
+    <color name="sec_color_90">#e6304149</color>
+    
+    <color name="bg_color_90">#e6304149</color>
+    <color name="bg_lyrics">#e6e9f3f9</color>
+    
+    <color name="txt_channelname">@color/main_color</color>
+    <color name="txt_songartist">@color/main_color</color>
+    <color name="txt_songname">@color/main_color</color>
+    <color name="txt_songtimeprogress">@color/main_color</color>
+    <color name="txt_songtimetotal">@color/sec_color</color>
+    <color name="txt_channellist">@color/mainon_color</color>
+    <color name="txt_channellist_name">@color/mainon_color</color>
+    <color name="txt_playlist_playing">@color/mainon_color</color>
+    <color name="txt_playlist_songname">@color/mainon_color</color>
+    <color name="txt_playlist_artist">@color/fou_color_50</color>
+    <color name="txt_channellist_header">@color/mainon_color</color>
+    <color name="txt_searchresult_header">@color/mainon_color</color>
+    <color name="txt_searchbox">@color/mainon_color</color>
+    <color name="txt_channellist_section_header">@color/fou_color</color>
+    <color name="txt_channellist_songname">@color/fou_color</color>
+    <color name="txt_channellist_artist">@color/fou_color_50</color>
+    
+    
+    <color name="bg_topbar">@color/fou_color</color>
+    <color name="bg_main">@color/bg_color</color>
+    <color name="bg_songbuttons">@color/fou_color</color>
+    <color name="bg_songprogress">@color/fou_color</color>
+    <color name="bg_songcontrol">@color/main_color</color>
+    <color name="bg_volumelo">@color/fou_color_95</color>
+    <color name="bg_channellist">@color/sec_color</color>
+    <color name="bg_playlist">@color/sec_color_90</color>
+    <color name="bg_playlist_top">@color/main_color</color>
+    <color name="bg_cover">@color/fou_color</color>
+    <color name="bg_channellist_header">@color/sec_color</color>
+    
+    
+    <color name="progress_normal">@color/bg_color</color>
+    <color name="progress_bar">@color/main_color</color>
+    <color name="progress_bar_secondary">@color/main_color_50</color>
+    <color name="progress_bar_active">@color/sec_color</color>
+    <color name="progress_thumb">@color/sec_color</color>
+    
+    <color name="bt_songbutton">@color/main_color_30</color>
+    <color name="bt_control_active">@color/sec_color</color>
+    <color name="bt_channellisttopbar">@color/main_color</color>
+    <color name="bt_pause">@color/fou_color</color>
+    <color name="bt_buttontop">@color/main_color_30</color>
+    <color name="bt_volume">@color/fou_color</color>
+    <color name="bt_defaultbutton_active">@color/sec_color</color>
+    <color name="bt_channeltitle_active">@color/bg_dark_color</color>
+    
+    <color name="divider">@color/main_color</color>
+    <color name="divider_playlist">@color/main_color</color>
+    <color name="divider_channellist">@color/bg_dark_color</color>
+    <color name="divider_channellistinside">@color/sec_color</color>
+    
+    <color name="searchbox_normal">@color/sec_color</color>
+    <color name="searchbox_active">@color/sec_color</color>
+    
+    
+    <color name="divider">#404040</color>
+    <color name="bottom_bar_text">#ff888888</color>
+    <color name="bottom_bar_bg">#fff1f1f1</color>
+    <color name="actions_bg">#ff3c3c3c</color>
+    <color name="actions_divider">#ff888888</color>
+    <color name="player_bg">#ff888888</color>
+    <color name="station_list_bg">#ff888888</color>
+    <color name="holo">#33b5e5</color>
+    <color name="holo_background_dark">#ff000000</color>
+    <color name="gray">#C0C0C0</color>
+</resources>

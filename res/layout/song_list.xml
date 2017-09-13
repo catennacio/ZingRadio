@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_dark_background"
+    android:orientation="vertical" >
+
+    <!-- Header -->
+
+    <RelativeLayout
+           style="@style/ChannellistinsideHeader">
+
+        <ImageButton
+            android:id="@+id/button_back"
+            style="@style/ButtonBack"
+            android:layout_alignParentLeft="true"
+             />
+
+        <TextView
+            android:id="@+id/song_list_header"
+            android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:drawablePadding="6dip"
+		        android:gravity="left|center_vertical"
+		        android:singleLine="true"
+		        android:textColor="@color/txt_channellist_header"
+		        android:background="@null"
+		        android:textSize="16sp"
+		        android:textAllCaps="true"
+		        android:layout_toRightOf="@+id/button_back" 
+            />
+
+    </RelativeLayout>
+    <!-- ListView -->
+
+    <ListView
+        android:id="@+id/song_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/divider_channellistinside"
+        android:dividerHeight="1px"
+        android:listSelector="@drawable/item_background_holo_light" 
+        android:cacheColorHint="#0000"
+
+        >
+    </ListView>
+
+</LinearLayout>

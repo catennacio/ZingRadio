@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+	    <shape
+	        >
+	              <corners
+	            android:topLeftRadius="@dimen/playercontrol_radius"
+	            android:topRightRadius="@dimen/playercontrol_radius"
+	            />
+	        <solid
+	            android:color="@color/bg_songprogress" />
+	  
+	    </shape>
+	</item>
+
+</layer-list>

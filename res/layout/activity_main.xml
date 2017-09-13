@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/sample.actionscontentview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    > 
+ <com.slidingmenu.lib.SlidingMenu
+    xmlns:sliding="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/slidingmenu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    sliding:touchModeAbove="fullscreen"
+    sliding:behindOffset="@dimen/slidingmenu_offset"
+    sliding:shadowDrawable="@drawable/shadowright"
+    sliding:shadowWidth="@dimen/shadow_width"
+    sliding:fadeEnabled="true"
+    sliding:fadeDegree="0.7"
+    sliding:selectorEnabled="true"
+    sliding:viewAbove="@layout/content_frame"
+    sliding:viewBehind="@layout/menu_frame_left"
+/>
+</RelativeLayout>

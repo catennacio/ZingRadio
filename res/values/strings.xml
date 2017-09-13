@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fb_app_id">499642410096549</string>
+    <string name="app_name">Zing Radio</string>
+    <string name="logo">Logo</string>
+    <string name="slogan">Chia sẻ cảm xúc bằng âm nhạc.</string>
+    <string name="honor">Hỗ trợ nội dung từ Zing Mp3</string>
+    
+    <string name="splash_msg_no_connection">Không có kết nối!</string>
+    
+    <string name="station_favorite_name">Nhạc yêu thích</string>
+    <string name="station_search_name">Tìm kiếm</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="category_theloai_id">0</string>
+    <string name="category_chude_id">1</string>
+    <string name="category_electronic_id">2</string>
+    <string name="category_nghesi_id">3</string>
+    
+    <string name="download_notification_click">Em đang download, đừng có hối em mà...</string>
+    <string name="download_start">Bắt đầu download, đợi em xíu nha...</string>
+    <string name="download_complete">Em download xong rùi.</string>
+    
+    <string name="settings_category_general">Tùy chỉnh</string>
+    <string name="settings_auto_download">Tự động download</string>
+    <string name="settings_auto_download_summary">Bài hát sẽ được tự động download khi thêm vào mục My Songs.</string>
+    <string name="settings_instant_search">Instant Search</string>
+    <string name="settings_instant_search_summary">Gợi ý kết quả tìm kiếm ngay khi đang nhập dữ liệu. Khuyến khích cho máy và mạng nhanh (Wifi).</string>
+    <string name="settings_show_notification_when_play">Hiện notification</string>
+    <string name="settings_show_notification_when_play_summary">Hiển thị thông tin đang chơi nhạc trên thanh notification.</string>
+    
+    <string name="settings_about">About</string>
+    <string name="settings_about_summary">Thông tin ứng dụng</string>
+    <string name="settings_about_text">Developed by Duy Nguyen.\n\nPowered by Zing Mp3.\n\nThanks for using! Enjoy!\n</string>
+    <string name="settings_market">Rate &amp; review</string>
+    <string name="settings_market_summary">Nếu bạn thích ứng dụng thì review nhé ^_^</string>
+    <string name="settings_accounts">Tài khoản</string>
+    <string name="settings_login_facebook">Đăng nhập Facebook</string>
+    <string name="settings_login_facebook_summary">Kết nối với Facebook để gởi tin lên LiveFeeds và quà tặng âm nhạc cho bạn bè.</string>
+    <string name="settings_logout_facebook">Đăng xuất Facebook</string>
+    <string name="settings_logout_facebook_summary">Bạn sẽ không thể gởi tin lên LiveFeeds và quà tặng âm nhạc cho bạn bè mình được.</string>
+    <string name="settings_timer_off">Hẹn giờ tắt nhạc</string>
+    <string name="settings_timer_off_summary">Tắt nhạc đi ngụ ~_~</string>
+    <string name="settings_timer_on">Hẹn giờ bật nhạc</string>
+    <string name="settings_timer_on_summary">Bật nhạc lên nghe ^_^</string>
+    
+    <string name="msg_err_connection_error">Eck, đứt mạng rùi..</string>
+    <string name="msg_err_song_dropped">Bài hát bị rớt giữa đường rùi.. thử lại giùm em</string>
+    <string name="msg_err_song_general">Có thứ gì đó không được đúng lắm, em chịu.. thử lại nha.</string>
+    <string name="msg_err_station_not_available">Nghệ sĩ này không có kênh âm nhạc, hãy thử kênh tương tự.</string>
+    <string name="msg_searchbox_hint">Tìm kiếm</string>
+    <string name="msg_search_fragment_searchbox_hint">Tên bài hát, album hoặc nghệ sĩ</string>
+    <string name="msg_search_fragment_no_connection">Eck.. hok có internet sao em tìm được &gt;.&lt;</string>
+    
+    <string name="msg_err_media_info_network_bandwidth">Mạng chậm quá à... kiên nhẫn chút nha.. &gt;.&lt;</string>
+    <string name="msg_err_media_not_seekable">Load không được nhạc nè.. mạng chậm quá đi à... &gt;.&lt;</string>
+    <string name="msg_err_play_list_empty">Không tìm được bài nào trong kênh này hết, load lại nha..</string>
+    <string name="msg_err_slow_connection">Mạng chậm quá à, bài này nghe hok được rùi.. nghe ở wifi cho nhanh nha.. &gt;.&lt;</string>
+    <string name="msg_err_song_deleted_on_server">Bài này bị xóa trên server Zing Mp3 rùi, chọn bài khác nha..</string>
+    <string name="msg_err_song_bad_link">Bài này link bị hỏng rồi, chọn bài khác nha..</string>
+    <string name="msg_err_perform_search">Mạng bị đứt giữa chừng rùi, thử lại nha</string>
+    <string name="msg_search_fragment_empty">Không tìm thấy dữ liệu</string>
+    <string name="msg_search_fragment_progress_bar_searching">Đợi em xíu...</string>
+    <string name="msg_search_fragment_progress_bar_get_station_id">Đang tìm nhạc..</string>
+    <string name="msg_search_fragment_progress_bar_get_zing_song_detail">Đang load bài này..</string>
+    <string name="msg_search_fragment_additional_search">Để em ráng tìm thêm..</string>
+    
+    <string name="my_channels">Kênh yêu thích</string>
+    <string name="my_songs">Nhạc yêu thích</string>
+    <string name="msg_added_to_my_channels">Em thêm kênh này vô Kênh yêu thích roy :)</string>
+    <string name="msg_removed_from_my_channels">Em xóa kênh này trong Kênh yêu thích roy :)</string>
+    <string name="msg_err_insert_channel">Em hok thêm được kênh này vô Kênh yêu thích &gt;.&lt;</string>
+    <string name="msg_added_to_my_songs">Em thêm bài này vô Nhạc yêu thích roy :)</string>
+    <string name="msg_removed_from_my_songs">Em xóa bài này trong Nhạc yêu thích roy :)</string>
+    <string name="msg_err_insert_song">Em hok thêm được bài này vô Nhạc yêu thích &gt;.&lt;</string>
+    
+    <string name="msg_lyrics_not_available">Em hok tìm được lời bài hát này &gt;.&lt;</string>
+    <string name="msg_back_to_exit">Nhấn Back lần nữa để thoát hẳn</string>
+    <string name="msg_good_bye">Bye bye ~.~</string>
+    <string name="msg_err_start_home">Có một vài launcher (iLauncher etc) ngăn hok cho em thoát</string>
+    <string name="msg_search_artist_for_more">Dùng chức năng Tìm kiếm để tìm thêm nghệ sĩ không có trong danh sách</string>
+    
+    <string name="msg_settings_logging_in_fb">Đang kết nối với Facebook</string>
+    <string name="msg_settings_logging_in_fb_pls_wait">Đợi em xíu...</string>
+    
+    <string name="msg_logout_from_facebook">Đăng xuất</string>
+    <string name="msg_are_you_sure">Bạn có chắc hok?</string>
+    
+    <string name="msg_settings_timer_select_title">Đặt giờ</string>
+    <string name="msg_settings_timer_select_title_no_use">Không sử dụng</string>
+    <string name="msg_settings_timer_select_summary_use">Nhấn vào để cài đặt</string>
+    <string name="msg_settings_timer_dialog_set">Đặt giờ</string>
+    <string name="msg_settings_timer_dialog_cancel">Hủy</string>
+    
+    <string name="search_artist_result_layout_header">Nghệ sĩ</string>
+    <string name="search_song_result_layout_header">Bài hát</string>
+    <string name="search_album_result_layout_header">Album</string>
+    
+    <string name="menu_radio">Radio</string>
+    <string name="menu_canhan">Cá nhân</string>
+    <string name="menu_theloai">\u00A0Thể loại</string>
+    <string name="menu_chude">\u00A0Chủ đề</string>
+    <string name="menu_nghesi">\u00A0Nghệ sĩ</string>
+    <string name="menu_electronic">\u00A0Electtronic</string>
+    <string name="menu_nghegoiy">\u00A0Nghe gợi ý</string>
+    <string name="menu_kenhyeuthich">\u00A0Kênh yêu thích</string>
+    <string name="menu_baihatyeuthich">\u00A0Bài hát yêu thích</string>
+
+    <string name="msg_welcome">Welcome</string>
+    <string name="msg_welcome_back">Welcome back</string>
+    <string name="msg_logging_in">Đăng nhập...</string>
+    <string name="msg_connecting">Connecting...</string>
+    <string name="msg_login_cancel">Em chưa login xong mà &gt;.&lt;</string>
+</resources>
+

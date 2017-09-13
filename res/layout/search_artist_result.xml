@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_fragment_layout_search_artist_result"
+    style="@style/SearchresultLayout"
+    >
+    
+	<!-- Header for Artist result -->
+	<TextView
+        android:id="@+id/artist_list_header"
+        style="@style/SearchresultListheader"
+        android:text="@string/search_artist_result_layout_header"
+        />
+    <!-- android:textAppearance="?android:attr/textAppearanceLarge"  -->
+
+    <ListView 
+			    android:id="@+id/lv_artistsearchresult"
+			    style="@style/SearchresultListview"
+			    />
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.friends.zingradio"
+    android:versionCode="43"
+    android:versionName="1.2.130621" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> -->
+
+    <application
+        android:name="ZingRadioApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Zadio" >
+
+        <!-- android:theme="@style/Theme.NoTitle" -->
+
+        <receiver
+            android:name="com.friends.zingradio.util.timer.Timer"
+            android:process=":remote" >
+        </receiver>
+        
+        <!-- Used for install referral measurement-->
+		<service android:name="com.google.analytics.tracking.android.CampaignTrackingService"/>
+		<receiver android:name="com.google.analytics.tracking.android.CampaignTrackingReceiver" android:exported="true">
+		  <intent-filter>
+		    <action android:name="com.android.vending.INSTALL_REFERRER" />
+		  </intent-filter>
+		</receiver>
+        <!--
+		<receiver android:name=".util.AutoStart">
+		    <intent-filter>
+		        <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+		    </intent-filter>
+		</receiver>
+        -->
+
+<!-- Widget section 
+        <receiver
+            android:name=".widget.WidgetActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widgetprovider" />
+        </receiver>
+
+        <service android:name=".widget.WidgetActivity$PlayMusic" />
+        <service android:name=".widget.WidgetActivity$BackMusic" />
+        <service android:name=".widget.WidgetActivity$ForwardMusic" />
+        <service android:name=".widget.WidgetActivity$ListMusic" />
+
+ -->
+        <!-- Start of Crittercism.com Code -->
+        <activity android:name="com.crittercism.NotificationActivity" />
+        <!-- End of Crittercism.com Code -->
+
+        <service
+            android:name=".media.MusicService"
+            android:exported="false"
+            android:enabled="true"
+            android:icon="@drawable/ic_launcher" >
+            <intent-filter>
+                <action android:name="ACTION_TOGGLE_PLAYBACK" />
+                <action android:name="ACTION_PLAY" />
+                <action android:name="ACTION_PAUSE" />
+                <action android:name="ACTION_SKIP" />
+                <action android:name="ACTION_PREV" />
+                <action android:name="ACTION_START_PLAYLIST" />
+                <action android:name="ACTION_PLAY_AT" />
+                <action android:name="ACTION_STOP" />
+                <action android:name="ACTION_PLAY_SUGGESTED" />
+                <action android:name="ACTION_PLAY_ON_TIMER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="URL" />
+
+                <data android:scheme="http" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.friends.zingradio.activity.SplashScreenActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.NoActionBar" >
+		            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.friends.zingradio.activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- android:windowSoftInputMode="adjustNothing" -->
+        <activity android:name="com.friends.zingradio.activity.SettingsActivity" />
+        <activity android:name="com.friends.zingradio.activity.FacebookLoginActivity" />
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fb_app_id" />
+    </application>
+
+</manifest>

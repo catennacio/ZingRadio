@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="global_radius">8dp</dimen>
+    
+    <dimen name="albumcover">240dp</dimen>
+    <dimen name="button_control">48dp</dimen>
+    <dimen name="volumelo_radius">24dp</dimen> <!-- =1/2 button_control -->
+    <dimen name="button_back">48dp</dimen>
+    <dimen name="lo_main_lyric">320dp</dimen>
+    <dimen name="lo_main">320dp</dimen>
+    <dimen name="lo_albumsonglist">232dp</dimen>
+    <dimen name="lo_topbar">48dp</dimen>
+    <dimen name="lo_controller">56dp</dimen>
+    
+    <dimen name="lo_songname">36dp</dimen>
+    <dimen name="lo_songartist">24dp</dimen>
+    <dimen name="txt_songname">20sp</dimen>
+    <dimen name="txt_songartist">16sp</dimen>
+    
+    <dimen name="channel_list_inside_height">48dp</dimen>
+    
+    <dimen name="controller_margin">16dp</dimen>
+    
+    <dimen name="volume_position">4dp</dimen>
+    <dimen name="song_progress_bar">8dp</dimen>
+    <dimen name="song_progress_inset">8dp</dimen>
+    <dimen name="song_progress_thumb_width">32dp</dimen>
+    <dimen name="song_progress_thumb_height">24dp</dimen> <!-- height = inset * 2 + song_progres_bar -->
+
+</resources>

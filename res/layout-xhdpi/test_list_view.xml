@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_fragment_layout_search_song_result"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background" 
+    >
+
+    <TextView
+        android:id="@+id/song_list_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:drawablePadding="6dip"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="@string/search_song_result_layout_header"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <ListView
+        android:id="@+id/lv_songsearchresult"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:dividerHeight="1px"
+        />
+
+</LinearLayout>
